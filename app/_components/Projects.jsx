@@ -19,9 +19,9 @@ function Projects() {
               description={
                 "Sticky is a web-app  for creating, organizing, and managing notes and to-do lists. Features include note creation, editing, deletion, reminders, and categorization for enhanced productivity."
               }
-              img={"/stickyy.png"}
               title={"Sticky (not completed)"}
               href={"https://pretender.vercel.app/"}
+              imgList={["/mealioo.png", "/profile.png", "/stickyy.png"]}
             />
           </CarouselItem>
 
@@ -30,9 +30,9 @@ function Projects() {
               description={
                 "Mealio is a web-app that will make you eat healthy. Tailored to your personal tastes and nutritional needs."
               }
-              img={"/mealioo.png"}
               title={"Mealio"}
               href={"https://pretender.vercel.app/"}
+              imgList={["/mealioo.png", "/profile.png", "/stickyy.png"]}
             />
           </CarouselItem>
 
@@ -41,9 +41,9 @@ function Projects() {
               description={
                 "WorldWise is a world map that tracks your footsteps into every city you can think of. Never forget your wonderful experiences, and show your friends how you have wandered the world."
               }
-              img={"/worldwisee.png"}
               title={"Worldwise"}
               href={"https://pretender.vercel.app/"}
+              imgList={["/mealioo.png", "/profile.png", "/stickyy.png"]}
             />
           </CarouselItem>
 
@@ -52,9 +52,9 @@ function Projects() {
               description={
                 "The-Wild-Oasis is a dashboard for managing cabins and user bookings, providing an efficient way to oversee reservations, track availability, and streamline the booking process."
               }
-              img={"/wildoasis.png"}
               title={"WildOasis"}
               href={"https://pretender.vercel.app/"}
+              imgList={["/mealioo.png", "/profile.png", "/stickyy.png"]}
             />
           </CarouselItem>
         </CarouselContent>
