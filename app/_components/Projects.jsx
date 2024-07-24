@@ -14,17 +14,6 @@ function Projects() {
 
       <Carousel className="relative">
         <CarouselContent>
-          <CarouselItem className="basis-1/2 ">
-            <Project
-              description={
-                "Sticky is a web-app  for creating, organizing, and managing notes and to-do lists. Features include note creation, editing, deletion, reminders, and categorization for enhanced productivity."
-              }
-              title={"Sticky (not completed)"}
-              href={"https://pretender.vercel.app/"}
-              imgList={["/mealioo.png", "/profile.png", "/stickyy.png"]}
-            />
-          </CarouselItem>
-
           <CarouselItem className="basis-1/2">
             <Project
               description={
@@ -43,7 +32,7 @@ function Projects() {
               }
               title={"Worldwise"}
               href={"https://pretender.vercel.app/"}
-              imgList={["/mealioo.png", "/profile.png", "/stickyy.png"]}
+              imgList={["/worldwisee.png", "/profile.png", "/stickyy.png"]}
             />
           </CarouselItem>
 
@@ -54,7 +43,18 @@ function Projects() {
               }
               title={"WildOasis"}
               href={"https://pretender.vercel.app/"}
-              imgList={["/mealioo.png", "/profile.png", "/stickyy.png"]}
+              imgList={["/wildoasis.png", "/profile.png", "/stickyy.png"]}
+            />
+          </CarouselItem>
+
+          <CarouselItem className="basis-1/2 ">
+            <Project
+              description={
+                "Sticky is a web-app  for creating, organizing, and managing notes and to-do lists. Features include note creation, editing, deletion, reminders, and categorization for enhanced productivity."
+              }
+              title={"Sticky"}
+              href={"https://pretender.vercel.app/"}
+              imgList={["/stickyy.png", "/profile.png", "/stickyy.png"]}
             />
           </CarouselItem>
         </CarouselContent>

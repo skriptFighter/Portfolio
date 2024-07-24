@@ -22,7 +22,7 @@ function Project({ title, description, imgList = [], href }) {
     return () => {
       clearInterval(intervalId);
     };
-  }, [isHover, imgList.length]);
+  }, [isHover, imgList.length, intervalId]);
 
   return (
     <Link href={href} target="_blank">

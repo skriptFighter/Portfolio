@@ -16,16 +16,17 @@ function About() {
               </span>
               . With a strong foundation in modern web technologies like React,
               Tailwind CSS, and TypeScript, I craft engaging and dynamic user
-              interfaces. Whether it's developing a new project from scratch or
-              enhancing existing ones.
+              interfaces. Whether it&apos;s developing a new project from
+              scratch or enhancing existing ones.
             </p>
           </div>
         </div>
 
         <div className="absolute right-20 top-20 h-[400px] w-80 bg-indigo-500/30 rounded-2xl shadow-lg shadow-black/50">
           <Image
+            alt="profile picture"
             fill
-            src={"/profile.png"}
+            src={"/profilee.jpg"}
             className="object-cover rounded-2xl p-1 pointer-events-none"
           />
         </div>
